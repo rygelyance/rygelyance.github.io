@@ -5,11 +5,11 @@
 }
 
 h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-bottom: 4px solid rgb(255, 255, 255);
     border-top: 4px solid rgb(255, 255, 255);
-    font-size: 350%;
+    font-size: 650%;
     font-weight: 800;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -49,16 +49,27 @@ p {
     padding-bottom: 1%;
 }
 
+.links {
+    scale: 1.5;
+    padding: 2%;
+}
+
 img {
     padding-left: 2%;
     padding-right: 2%;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
+.projecttable {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 8%;
+    margin-right: 8%;
+    column-gap: 1%;
 }
 
-th, td {
-    padding: 2%;
+.p1, .p2, .p3, .p4 {
+    justify-self: center;
+    align-self: auto;
+    margin: 3%;
 }
