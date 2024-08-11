@@ -15,16 +15,24 @@ h1 {
     margin-bottom: 5%;
     margin-left: 30%;
     margin-right: 30%;
-    padding: 20px;
+    padding: 3%;
 }
+
+h2 {
+    font-size: 195%;
+}
+
+body {
+    overflow-x: hidden;
+  }
 
 .main {
     font-size: 150%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 1%;
+    margin-right: 1%;
     column-gap: 1.2%;
 }
 
@@ -32,17 +40,15 @@ h1 {
     justify-self: center;
     align-self: auto;
     border-radius: 20px;
-    background-color: rgba(30, 30, 30, 0.8);
+    background-color: rgba(30, 30, 30, 0.65);
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-left: 0%;
-    margin-right: 0%;
     margin-top: 1%;
     margin-bottom: 1%;
     width: 94%;
-    line-height: 175%;
+    line-height: 155%;
 }
 
 .section2 {
@@ -60,12 +66,16 @@ p {
 
 .links {
     scale: 1.2;
-    padding: 2%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
-img {
-    padding-left: 1%;
-    padding-right: 1%;
+.l1, .l2, .l3, .l4, .l5 {
+    justify-self: center;
+    align-self: center;
 }
 
 .projecttable {
@@ -73,8 +83,6 @@ img {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 8%;
-    margin-right: 8%;
     column-gap: 1%;
 }
 
@@ -82,4 +90,8 @@ img {
     justify-self: center;
     align-self: auto;
     margin: 3%;
+}
+
+figure figcaption {
+    font-size: 125%;
 }
