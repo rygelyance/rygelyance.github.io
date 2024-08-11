@@ -58,12 +58,12 @@ p {
 
 
 .links {
-    scale: 1.5;
+    scale: 1.75;
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .l1, .l2, .l3, .l4, .l5 {
