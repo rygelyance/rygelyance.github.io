@@ -22,7 +22,7 @@ h2 {
     font-size: 195%;
 }
 
-body {
+body, html {
     overflow-x: hidden;
   }
 
