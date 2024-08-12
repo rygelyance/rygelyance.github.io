@@ -11,11 +11,11 @@ h1 {
     border-top: 4px solid rgb(255, 255, 255);
     font-size: 500%;
     font-weight: 800;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 30%;
     margin-right: 30%;
-    padding: 3%;
+    padding: 2%;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
 
 body, html {
     overflow-x: hidden;
-  }
+}
 
 .main {
     font-size: 150%;
@@ -52,6 +52,12 @@ body, html {
     width: 94%;
     max-width: 94%;
     line-height: 200%;
+}
+
+.pf {
+    margin-top: 1%;
+    margin-bottom: -4%;
+    align-self: center;
 }
 
 .section2 {
@@ -90,11 +96,12 @@ p {
 }
 
 .p1, .p2, .p3, .p4 {
+    scale: 1.1;
     justify-self: center;
     align-self: auto;
     margin: 3%;
 }
 
 figure figcaption {
-    font-size: 125%;
+    font-size: 120%;
 }

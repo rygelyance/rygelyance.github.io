@@ -24,7 +24,7 @@ h2 {
 
 body, html {
     overflow-x: hidden;
-  }
+}
 
 .main {
     text-align: center;
@@ -48,6 +48,12 @@ body, html {
     margin-bottom: 1%;
     width: 92%;
     line-height: 165%; 
+}
+
+.pf {
+    margin-top: 1%;
+    margin-bottom: -4%;
+    align-self: center;
 }
 
 p {
@@ -78,10 +84,13 @@ p {
 }
 
 .p1, .p2, .p3, .p4 {
+    scale: 1.1;
     justify-self: center;
     align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 figure figcaption {
-    font-size: 115%;
+    font-size: 110%;
 }

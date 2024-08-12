@@ -11,8 +11,8 @@ h1 {
     border-top: 4px solid rgb(255, 255, 255);
     font-size: 500%;
     font-weight: 800;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
     padding: 3%;
@@ -24,7 +24,7 @@ h2 {
 
 body, html {
     overflow-x: hidden;
-  }
+}
 
 .main {
     font-size: 150%;
@@ -51,6 +51,12 @@ body, html {
     line-height: 155%;
 }
 
+.pf {
+    margin-top: 1%;
+    margin-bottom: -4%;
+    align-self: center;
+}
+
 .section2 {
     grid-row: span 2;
 }
@@ -69,8 +75,8 @@ p {
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 6%;
+    margin-left: 6%;
 }
 
 .l1, .l2, .l3, .l4, .l5 {
@@ -87,11 +93,12 @@ p {
 }
 
 .p1, .p2, .p3, .p4 {
+    scale: 1.1;
     justify-self: center;
     align-self: auto;
     margin: 3%;
 }
 
 figure figcaption {
-    font-size: 125%;
+    font-size: 120%;
 }
